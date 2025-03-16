@@ -4,7 +4,7 @@ import pandas
 
 if __name__ == "__main__":
     state_geo = requests.get(
-        "https://raw.githubusercontent.com/python-visualization/folium-example-data/main/world_countries.json"
+        "https://raw.githubusercontent.com/PhantByte/PhantMaps/refs/heads/main/data/geometry.json"
     ).json()
     state_data = pandas.read_csv(
         "https://raw.githubusercontent.com/PhantByte/PhantMaps/refs/heads/main/data/rates.csv"
