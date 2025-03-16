@@ -18,7 +18,7 @@ if __name__ == "__main__":
         data=state_data,
         columns=["CountryCode", "2023"],
         key_on="feature.id",
-        fill_color="YlGn", # de aici putem schimba gradientul
+        fill_color="RdYlGn", # de aici putem schimba gradientul
         fill_opacity=0.7,
         line_opacity=0.2,
         legend_name="Gradul de urbanizare (%)",
