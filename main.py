@@ -7,7 +7,7 @@ if __name__ == "__main__":
         "https://raw.githubusercontent.com/python-visualization/folium-example-data/main/world_countries.json"
     ).json()
     state_data = pandas.read_csv(
-        "C:\Users\ovalq\PycharmProjects\PhantMaps\data\rates.csv"
+        "https://raw.githubusercontent.com/PhantByte/PhantMaps/refs/heads/main/data/rates.csv"
     ) #acum tre sa folosim data-ul nostru
 
     m = folium.Map(location=(50, 10), tiles="cartodb positron", zoom_start=4)
